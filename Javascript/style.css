@@ -1,0 +1,22 @@
+/* #box2{
+    height: 300px;
+    width:300px;
+    text-align: center;
+    padding-top: 100px;
+    
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 50%;
+} */
+
+.content{
+    color:red;
+    
+    border: 2px solid black;
+}
+
+.newclass{
+    background-color: yellow;
+    
+}
