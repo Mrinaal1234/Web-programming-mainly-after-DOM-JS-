@@ -1,0 +1,55 @@
+*{
+    padding : 0rem;
+    margin:0rem
+}
+.navbar{
+    background-color: darkblue;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.symbols{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    
+}
+
+.button{
+    height: 7rem;
+    width:7rem;
+    border: .5rem solid black;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-bottom: 5rem;
+}
+.button:hover{
+    background-color: red;
+    cursor:pointer;
+}
+.score{
+    display: flex;
+}
+.show{
+    margin: auto;
+    text-align: center;
+    width:5rem;
+    padding-top: 1.5rem;
+    height: 3rem;
+    color:blue;
+    border: .2rem solid blue;
+}
+.result{
+    margin-top: 5rem;
+    font-size: 2rem;
+    border: .3rem solid blue;
+    border-radius: 15%;
+    background-color: blue;
+    text-align: center;
+    color:yellow;
+    margin-left: 25%;
+    margin-right: 25%;
+}
