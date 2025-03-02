@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link href="formvalid.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="name">
+            <label for="entername">Name</label>
+            <input type="text" id="entername" class="entername" placeholder="Enter Your Name">
+            <span class="error">Name is required</span>
+        </div>
+
+        <div class="name">
+            <label for="enterno">Phone No.</label>
+            <input type="text" id="enterno" class="enterno" placeholder="+91 000 000 0000">
+            <span class="error">Phone number is required</span>
+        </div>
+
+        <div class="name">
+            <label for="enterdate">Your DOB</label>
+            <input type="date" id="enterdate" class="enterdate">
+            <span class="error">Date of birth is required</span>
+        </div>
+
+        <div class="name">
+            <label for="enteremail">Email id</label>
+            <input type="text" id="enteremail" class="enteremail" placeholder="Enter your Email">
+            <span class="error">Email is required</span>
+        </div>
+
+        <div class="name">
+            <label for="entermessage">Your Message</label>
+            <input type="text" id="entermessage" class="entermessage" placeholder="Enter your message">
+            <span class="error">Message is required</span>
+        </div>
+
+        <button class="submit" onclick="checkall()">Submit</button>
+    </div>
+
+    <script src="formvalid.js"></script>
+</body>
+</html>
